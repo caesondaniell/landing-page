@@ -7,7 +7,7 @@ html {
 *,
 *::before,
 *::after {
-    border: 1px dotted red;
+    /* border: 1px dotted red; */
     box-sizing: inherit;
     margin: 0;
     padding: 0;
