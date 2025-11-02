@@ -39,3 +39,33 @@ a {
     font-size: 18px;
     font-weight: 100;
 }
+
+.content {
+    display: flex;
+}
+
+.top {
+    background-color: #1f2937;
+    padding: 50px;
+    gap: 24px;
+}
+
+.top-text {
+    padding: 0;
+    color: #e5e7eb;
+    width: 50%
+}
+
+.top-text h1 {
+    color: #f9faf8;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.top-image {
+    width: 50%;
+    text-align: center;
+    vertical-align: middle;
+    background-color: #646c79;
+    color: #e5e7eb;
+}
