@@ -42,18 +42,22 @@ a {
 
 .content {
     display: flex;
+    padding: 50px;
 }
 
 .top {
     background-color: #1f2937;
-    padding: 50px;
     gap: 24px;
 }
 
 .top-text {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    align-items: flex-start;
     padding: 0;
     color: #e5e7eb;
-    width: 50%
+    width: 50%;
 }
 
 .top-text h1 {
@@ -62,10 +66,46 @@ a {
     font-weight: 900;
 }
 
+.signup {
+    background-color: #3882f6;
+    color: #f9faf8;
+    border-radius: 5px;
+    padding: 6px 28px;
+    font-weight: bold;
+}
+
 .top-image {
     width: 50%;
     text-align: center;
     vertical-align: middle;
     background-color: #646c79;
     color: #e5e7eb;
+}
+
+.first {
+    flex-wrap: wrap;
+    gap: 24px;
+    justify-content: center;
+}
+
+.first h2 {
+    font-size: 32px;
+    color: #1f2937;
+    font-weight: 900;
+    width: 100vw;
+    text-align: center;
+}
+
+.info {
+    padding: 0;
+    flex: 0;
+    text-align: center;
+}
+
+.illustration {
+    border: 2px solid #3882f6;
+    border-radius: 10px;
+    width: 150px;
+    height: 150px;
+    margin-bottom: 10px;
 }
