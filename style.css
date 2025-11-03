@@ -7,14 +7,15 @@ html {
 *,
 *::before,
 *::after {
-    /* border: 1px dotted red; */
+    border: 1px dotted red;
     box-sizing: inherit;
     margin: 0;
     padding: 0;
     font-family: Roboto, sans-serif;
 }
 
-div {
+.header,
+.footer {
     padding: 10px 50px;
 }
 
@@ -29,7 +30,6 @@ div {
 .header-links {
     margin-left: auto;
     display: flex;
-    padding: 0;
     gap: 10px;
 }
 
@@ -63,7 +63,6 @@ a {
     flex-direction: column;
     gap: 10px;
     align-items: flex-start;
-    padding: 0;
     color: #e5e7eb;
 }
 
@@ -82,7 +81,6 @@ a {
 }
 
 .top-image {
-    padding: 0;
     width: 400px;
     align-self: stretch;
     display: flex;
@@ -90,6 +88,10 @@ a {
     justify-content: center;
     background-color: #646c79;
     color: #e5e7eb;
+}
+
+img {
+    max-width: 100%;
 }
 
 .first {
@@ -106,7 +108,6 @@ a {
 }
 
 .info {
-    padding: 0;
     flex: 0;
     text-align: center;
 }
@@ -125,11 +126,6 @@ a {
     flex-direction: column;
     gap: 10px;
     padding: 50px 75px;
-}
-
-.quote,
-.attribution {
-    padding: 0;
 }
 
 .quote {
